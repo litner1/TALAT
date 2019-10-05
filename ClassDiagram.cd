@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Czlowiek" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="Gracz" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.75" Y="1.563" />
+        <Point X="5.188" Y="1.563" />
+        <Point X="5.188" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACKAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABCEAAAAA=</HashCode>
+      <FileName>Czlowiek.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gracz" Collapsed="true">
+    <Position X="6.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IACCAABAAIAAEAAAAAAAQAAAAAAAAAAAQCAEQAAAAAQ=</HashCode>
+      <FileName>Gracz.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Komputer" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="Gracz" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="1.562" />
+        <Point X="10.25" Y="1.562" />
+        <Point X="10.25" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACCACAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAA=</HashCode>
+      <FileName>Komputer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="figury" Collapsed="true">
+    <Position X="6.75" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEEAIAAAAAA=</HashCode>
+      <FileName>Gracz.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
